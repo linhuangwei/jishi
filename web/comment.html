@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <head>
@@ -93,94 +93,18 @@
                             </div>
                     			</div>
 
-                            <div class="btn-controls">
-                                <div class="btn-box-row row-fluid">
-                                    <a href="#" class="btn-box big span4"><i class=" icon-user"></i><b>22，333</b>
-                                        <p class="text-muted">
-                                            历史食客</p>
-                                    </a><a href="#" class="btn-box big span4"><i class="icon-user"></i><b>96</b>
-                                        <p class="text-muted">
-                                            今日食客</p>
-                                    </a><a href="#" class="btn-box big span4"><i class="icon-money"></i><b>8/50</b>
-                                        <p class="text-muted">
-                                            福大食堂店铺排名</p>
-                                    </a>
-                                </div>
-                                <div class="btn-box-row row-fluid">
-
-
-
-
-                                </div>
-                            </div>
+                            
 
                             <!--/#btn-controls-->
                             <div class="module">
                                 <div class="module-head">
                                     <h3>
-                                        店铺五芒星</h3>
+                                        </h3>
                                 </div>
                                 <div class="module-body">
                                   <div class="chart pie donut">
                                     <div id="main" style="width: 900px;height:600px;"></div>
-                                        <script type="text/javascript">
-                                            // 基于准备好的dom，初始化echarts实例
-                                            var myChart = echarts.init(document.getElementById('main'));
 
-                                            // 指定图表的配置项和数据
-                                            var option = {
-                                              title: {
-
-                                                 },
-                                                 tooltip: {},
-                                                 legend: {
-                                                     data: ['早餐','午餐','晚餐']
-                                                 },
-                                                 radar: {
-                                                     // shape: 'circle',
-                                                     name: {
-                                                         textStyle: {
-                                                             color: '#fff',
-                                                             backgroundColor: '#999',
-                                                             borderRadius: 3,
-                                                             padding: [3, 5]
-                                                        }
-                                                     },
-                                                     indicator: [
-                                                        { name: '口碑', max: 6500},
-                                                        { name: '问题回答占比', max: 16000},
-                                                        { name: '上菜速度', max: 30000},
-                                                        { name: '服务态度', max: 38000},
-                                                        { name: '价格', max: 52000},
-
-                                                     ]
-                                                 },
-                                                 series: [{
-                                                     name: '',
-                                                     type: 'radar',
-                                                     // areaStyle: {normal: {}},
-                                                     data : [
-                                                         {
-                                                             value : [4300, 10000, 28000, 35000, 50000, 19000],
-                                                             name : '早餐'
-                                                         },
-                                                          {
-                                                             value : [5000, 14000, 24000, 31000, 42000, 21000],
-                                                             name : '午餐'
-                                                         },
-                                                          {
-                                                             value : [4000, 12000, 28000, 32000, 45000, 20000],
-                                                             name : '晚餐'
-                                                         }
-                                                     ]
-                                                 }]
-                                            };
-
-	                                             myChart.setOption(option)
-
-
-                                        </script>
-                                  </div>
                               </div>
                             </div>
 
